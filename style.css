@@ -10,15 +10,18 @@ h1{
 
 h3{
     text-align: center;
-    color: red;
+    color: black;
 }
 
+
 #contenedor_titulo{
-    background-color:lightgray;
+    background-color:#e6d5c8;
+    border-style: double;
+    box-shadow:3px 4px 0px 0px #899599;
 }
 
 #contenedor{
-    width:max-content;
+    
     height:600px;
     margin: auto;
    
@@ -33,7 +36,10 @@ h3{
     text-align: center;
     border-color: black;
     border-style: double;
+    padding: 10px 5px 5px 10px;
+    box-shadow:3px 4px 0px 0px #899599;
 }
+
 
 .est2{
     background-color: antiquewhite;
@@ -45,39 +51,54 @@ h3{
     justify-content: center;
     border-color: black;
     border-style: double;
+    padding: 10px 5px 5px 10px;
+    box-shadow:3px 4px 0px 0px #899599;
 }
 
+
+
 .est3{
-    background-color:#A2D9CE ;
+    background-color:#ade0d6 ;
     width: 420px;
     height: 500px;
-    float: right;
+    float: left;
     margin: 20px;
     text-align: center;
     border-color: black;
     border-style: double;
+    padding: 10px 5px 5px 10px;
+    box-shadow:3px 4px 0px 0px #899599;
 }
+
 
 .img1{
     width: 50%;
+    height: 200px;
     margin: 10px;
 }
 .img2{
+    height: 200px;
     width: 50%;
     margin: 10px;
+    
 }
 .img3{
     width: 50%;
+    height: 200px;
     margin: 10px;
 }
 
 .button{
     background-color: coral;
-    border: azure;
+    border:1px solid black;
     border-radius: 5px;
     display: inline-block;
+    font-size: large;
+    box-shadow:3px 4px 0px 0px #899599;
 }
 
 .button:hover{
-    background-color:aquamarine;
+    background: linear-gradient(to bottom,rgb(211, 95, 53) 5%, coral 100% );
+    
+    
 }
