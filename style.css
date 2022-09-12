@@ -24,6 +24,9 @@ h3{
     
     height:600px;
     margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
    
 }
 
